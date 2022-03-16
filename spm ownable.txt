@@ -1,0 +1,14 @@
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.0;
+
+import "@openzeppelin/contracts/access/Ownable.sol";
+
+contract spm is Ownable {
+    function normalThing() public {
+        
+    }
+
+    function specialThing() public onlyOwner {
+
+    }
+}
